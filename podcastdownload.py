@@ -2,8 +2,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import mimetypes
 import os
+import sys
 
-fname = "config.xml"
+fname = os.path.join(sys.path[0], "config.xml")
 
 config = ET.parse(fname).getroot()
 outputDirectory = config.find("outputDir").text
