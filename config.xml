@@ -1,0 +1,14 @@
+<config>
+    <outputDir>/volume1/music/Podcasts/</outputDir>
+    <feeds>
+        <feed name="Car Talk">
+            <url>https://www.npr.org/rss/podcast.php?id=510208</url>
+        </feed>
+        <feed name="Wait Wait... Don't Tell Me!">
+            <url>https://www.npr.org/rss/podcast.php?id=344098539</url>
+            <filters>
+                <filter>Wait Wait Naked and Ashamed</filter>
+            </filters>
+        </feed>
+    </feeds>
+</config>
